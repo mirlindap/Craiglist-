@@ -1,0 +1,147 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+  color:#6E82B7;
+  background:#eaece5;
+  
+}
+
+
+
+  .container {
+    display:flex;/* or inline-flex */
+    align-items:self-start;
+    display:flex;
+    gap:20px;
+    
+  }
+.
+.gallery {
+  margin:px;
+  border:1px solid #ccc;
+  float:left;
+  width:390px;
+  
+}
+
+.gallery img {
+ 
+max-height: 400px;
+max-width: 300px;
+width: 200px;
+height: 200px;
+  margin:10px;
+  }
+
+h4{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 67px;
+letter-spacing: 2px;
+word-spacing: 2px;
+  text-align: center;
+  text-transform: wavy;
+  color: #8CB2B8;
+  font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+  color: #FFFFFF;
+background: #E3CDCD;
+text-shadow: 4px 3px 0px #7A7A7A;
+}
+ p1{ text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+.icon-container{
+  max-width: 400px;
+  max-height:400px;
+  align-self: row;
+  position:relative;
+  bottom: -100px;
+  left: 900px;
+ padding:30px;
+  }
+
+.button {padding: 20px 200px;
+         margin:50px;
+         width:50%;
+         bottom:-8%;
+       left:30%;
+        
+       width:100px;
+       height:30px;
+       position: absolute;
+       z-index: 2;
+         text-align:center;
+         font-family:Andale Mono;
+        
+
+        
+         background-color: #E0E0E0;
+  color: black;
+  border: 2px solid #e7e7e7;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
+      }
+.button:hover {background-color:#d7c8de;
+              }
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  
+ * {
+  box-sizing: border-box;
+}
+
+.apt {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  
+.about{
+  display:flex;
+}
+.about div { border:1px #ccc solid;
+                 padding:10px;
+  
+}
+.btn{
+  padding:15px; 
+         margin:15px;
+         width:100px;
+         bottom:first-of-type;
+       left:10px;
+       width:100px;
+       height:40px;
+       position:center;
+       
+         text-align:center;
+         font-family:;
+         
+          background-color: #FAF0F1;
+  color: black;
+  border: 2px solid #e7e7e7;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+
+.desc{
+  padding:10px;
+  margin:5px;
+  text-position:normal;
+  font-family:Andale Mono ;
+  
+  
+}
